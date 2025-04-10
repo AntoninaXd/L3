@@ -1,17 +1,10 @@
-namespace LAB_2
+namespace LAB_2;
+
+class Program
 {
-    public class Program
+    static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            Task2();
-        }
-        private static void Task2()
-        {
-            int @int = 10;
-            string @class = "Hi";
-            bool @new = true;
-            Console.WriteLine(@int + "." + @class + "." + @new);
-        }
+        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hello, World2!");
     }
 }
