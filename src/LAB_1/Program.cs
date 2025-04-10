@@ -1,18 +1,10 @@
 namespace LAB_1
 {
-    public class Program
+    internal class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Task1();
+            Console.WriteLine("Hello, World!");
         }
-
-        private static void Task1()
-        {
-            int user_age = 20;
-            string UserName = "Антоніна";
-            Console.WriteLine("Привіт, " + UserName + "! Твій вік: 18" + user_age);
-        }
-
     }
-} 
+}
